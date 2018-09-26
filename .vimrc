@@ -23,8 +23,10 @@ set shiftwidth=4 "设置默认缩进宽度为4
 set expandtab "输入的tab自动转化为4个空格
 retab! "强制已有的tab转化为4个空格
 
-nmap tb :TagbarToggle<CR> "tagbar
+"tagbar
+nmap tb :TagbarToggle<CR> 
 
-nmap ne :NERDTreeToggle<CR> "nerdtree
+"nerdtree
+nmap ne :NERDTreeToggle<CR> 
 
 let g:godef_split=0
